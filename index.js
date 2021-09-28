@@ -28,9 +28,18 @@ function untilNum(num){
         console.log(i);
     }
 }
-untilNum(5);
+//untilNum(5);
 
 function multiply(one,two){
 return one * two
 }
-console.log(multiply(5,6))
+//console.log(multiply(5,6))
+
+function add(num1,num2){
+    if (num1 === num2){
+        return (num1+num2)*3
+    }else{
+        return num1 + num2
+    }
+}
+console.log(add(2,3));
