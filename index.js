@@ -42,7 +42,7 @@ function add(num1,num2){
         return num1 + num2
     }
 }
-console.log(add(2,3));
+//console.log(add(2,3));
 
 function isNegative(num){
     if(num<0){
@@ -66,4 +66,15 @@ function betweenTwentyAndFourty(num){
         return false
     }
 }
-console.log(betweenTwentyAndFourty(200))
+//console.log(betweenTwentyAndFourty(200))
+function largest(num1,num2,num3){
+    let array = [num1,num2,num3]
+    let largestNum = 0
+    for(let i=0; i<array.length;i++){
+        if(array[i] > largestNum){
+            largestNum = array[i]
+        }
+    }
+    return largestNum
+}
+console.log(largest(30,22,17));
