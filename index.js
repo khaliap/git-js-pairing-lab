@@ -29,3 +29,8 @@ function untilNum(num){
     }
 }
 untilNum(5);
+
+function multiply(one,two){
+return one * two
+}
+console.log(multiply(5,6))
