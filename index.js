@@ -58,3 +58,12 @@ function triangleArea(height,base){
     return (height*base)/2
 }
 console.log(triangleArea(5,7));
+
+function betweenTwentyAndFourty(num){
+    if(num>=20 && num<=100){
+        return true
+    }else{
+        return false
+    }
+}
+console.log(betweenTwentyAndFourty(200))
